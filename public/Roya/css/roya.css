@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: rgb(240, 240, 240);
+    min-height: 1000px;
+}
+
+/*start header container */
+.header-container {
+    background-color: rgb(232, 232, 232);
+    width: auto;
+    height: 50px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    border-color: rgb(232, 232, 232)
+}
+
+.header-container .live-register{
+    margin-left: 100px;
+}
+
+.header-container .live-register button{
+    width: 130px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+    font-family: Almarai, Arial, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.header-container .live-register .btn1{
+background-color: #ff392e;
+border-color: #ff392e;
+font-family: Almarai (ttf), Arial , sans-serif;
+}
+
+.header-container .live-register .btn2{
+    background-color: #1c2b4f;
+    border-color: #1c2b4f;
+}
+
+.header-container .header-container-paragraph{
+        font-weight: 200;
+        font-family: Almarai (ttf), Arial, sans-serif;
+        margin-right: 120px;
+}
+
+.header-container .live-register .btn1:hover{
+            background-color: white;
+            border-color: #ff392e;
+            color: #1c2b4f;
+}
+
+.header-container .live-register .btn2:hover{
+    background-color: white;
+    border-color: #1c2b4f;
+    color: #1c2b4f;
+}
+/*start header container */
+
+/* start sub head container */
+.sub-head-container {
+    padding-left: 110px;
+    padding-right: 110px;
+    background-color: white;
+    width: auto;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.sub-head-container .three-btn {
+    display: flex;
+    width: 170px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.sub-head-container .three-btn img {
+   width: 50px;
+   height: 50px;
+   
+}
+
+.sub-head-container .roya-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    font-size: 26px;
+    width: 190px;
+   
+}
+
+.sub-head.container .royal-logo p {
+    font-family: Almarai-bold (ttf);
+}
+
+.sub-head-container .roya-logo img{
+    width: 50px;
+}
+/* end sub head container */
+/* nav bar */
+
+.navbar{
+    padding-left: 130px;
+    padding-right: 90px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+    border-top: 1px solid rgba(0, 0, 0, 0.155);
+    height: 40px;
+}
+
+.navbar .container .nav-item:hover {
+    border-bottom: 2px solid;
+    
+}
+/* end ov nav bar */
+/* news container */
+
+.container-fluid{
+}
+
+.container-fluid .row {
+    justify-items: end;
+}
+
+.container-fluid .row .col-sm-8 img {
+ padding-top: 16px;
+ width: 730px;
+}
+
+.card mb-3 .col-md-8 .card-body {
+    display: flex;
+    width: 300px;
+  
+}
